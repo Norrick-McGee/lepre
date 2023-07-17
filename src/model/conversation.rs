@@ -16,6 +16,6 @@ impl Conversation{
 
 #[derive(Serialize, Deserialize, Clone, Debug)]
 pub struct Message{
-    pub user: bool,
+    pub user: bool, // is user or is chat-bot
     pub text: String,
 }
